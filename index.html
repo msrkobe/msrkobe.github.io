@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 <!--google font style-->
 <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/animation.css">
 <!--font-family: 'Open Sans', sans-serif;-->
 <!-- font css style-->
 <link rel="stylesheet" href="css/font-awesome.css">
@@ -90,18 +91,13 @@
           <h3 style="padding-left:200px">孟冬梅</h3>
           <h3 style="padding-left:200px">女</h3>
           <!-- <h3 style="padding-left:200px">河北唐山</h3> -->
-          <h3 style="padding-left:200px">出生日期：1995/7</h3>
+          <h3 style="padding-left:200px">出生日期：1995/12/27</h3>
+          <h3 style="padding-left:200px">工作所在地：北京</h3>
+          <h3 style="padding-left:200px">户口所在地：河北唐山</h3>
+
           <!-- <p>了解更多，请联系我</p> -->
-        <h3 style="padding-left:200px">qq:1763128203</h3>
-        <h3 style="padding-left:200px">手机号：18230331756</h3>
-        <h3 style="padding-left:200px">邮箱：1763128204@qq.com</h3>
-
-
-          <!-- <h4 class="subHeading">Webdesigner & Web Developer from Melbourne</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.  cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          <p>nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
-          <a href="#" class="bntDownload">我的作品</a> </div>
-        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img src="http://placehold.it/295x295&text=image1" alt="" class="img-circle topmar"> </div>
+          <a href="#protfolio" class="bntDownload">我的作品</a> </div>
+        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img style="width:250px;height:250px;border-radius:50%"class="animated bounceInRight shake" src="images/portfolio/c.jpg" alt="" class="img-circle topmar"> </div>
       </div>
     </div>
   </section>
@@ -229,10 +225,7 @@ jQuery  特效编写，解决主流浏览器兼容性问题，对网站用户体
       </div>
       <div class="portfolioFilter">
         <ul>
-          <li><a href="#" data-filter="*" class="current">已上线</a></li>
-          <li><a href="#" data-filter=".photos">企业类</a></li>
-          <li><a href="#" data-filter=".branding">Branding</a></li>
-          <li><a href="#" data-filter=".illustration">Illustration</a></li>
+          <li><a href="#" data-filter="*" class="current">已上线项目</a></li>
         </ul>
       </div>
       <ul class="portfolioContainer row">
@@ -251,16 +244,49 @@ jQuery  特效编写，解决主流浏览器兼容性问题，对网站用户体
         <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
           <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a href=" http://www.czzyyzzj.com/ggnyc/">医院</a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/e.png" alt="" > </div>
         </li>
-        <!-- <li class="branding photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image6" alt="" > </div>
-        </li> -->
+        
         <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
           <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"><a href=" http://m.jr.jiayuan.com/">佳缘金融</a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/f.png" alt="" > </div>
         </li>
-       <!--  <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image8" alt="" > </div>
-        </li> -->
       </ul>
+        <div class="portfolioFilter">
+        <ul>
+          <li><a href="#" data-filter="*" class="current">个人练习</a></li>
+        </ul>
+      </div>
+    <!--   <div class="dabox">
+      <div class="box">
+        <a href="婚嫁/index.html">婚嫁网站</a>
+      </div>
+      <div class="box">
+        <a href="旅游/index.html">旅游网站</a>
+      </div>
+      <div class="box">
+        <a href="咖啡/index.html">咖啡网站</a>
+      </div>
+      <div class="box">
+        <a href="建筑/index.html">建筑网站</a>
+      </div>
+      <div class="box">
+        <a href="体育/index.html">体育网站</a>
+      </div>
+      </div> -->
+      <a href="software/software.html"><img class="p" style="width: 230px;
+  height: 400px;
+  margin:20px;
+  padding-bottom: 30px;" src="images/z1.png" alt=""></a>
+      <a href="plasso/index.html"><img class="p" style="width: 230px;
+  height: 400px;
+  margin:20px;
+  padding-bottom: 30px;" src="images/z2.png" alt=""></a>
+      <a href="troop/index.html"><img class="p" style="width: 230px;
+  height: 400px;
+  margin:20px;
+  padding-bottom: 30px;" src="images/z3.png" alt=""></a>
+      <a href="fitline/fitline.html"><img class="p" style="width: 230px;
+  height: 400px;
+  margin:20px;
+  padding-bottom: 30px;" src="images/z4.png" alt=""></a>
     </div>
   </section>
   <!--protfolio end-->
@@ -285,11 +311,11 @@ jQuery  特效编写，解决主流浏览器兼容性问题，对网站用户体
     <div class="container">
       <!--contact info start-->
       <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-        <h4>Contact details</h4>
-<p> <i class="fa fa-map-marker fa-lg"></i> Collins Street West Victoria 8007 Australia</p>
-        <p> <i class="fa fa-mobile fa-lg"></i> +1800 1234 56789</p>
-        <p> <i class="fa fa-envelope-o "></i> <a href="mailto:support@websitename.com">support@websitename.com</a></p>
-        <p> <i class="fa fa-link "></i> <a href="www.websitename.com">www.websitename.com</a></p>
+        <h4>联系方式</h4>
+         <p> <i class="fa fa-mobile fa-lg"></i> 18230331756</p>
+        <p> <i class="fa fa-envelope-o "></i> <a href="mailto:support@websitename.com">1763128204@qq.com</a></p>
+        <p> <i class="fa fa-link "></i> <a href="www.websitename.com">mdmmsr.github.io</a></p>
+        <p> <i class="fa fa-map-marker fa-lg"></i> Collins Street West Victoria 8007 Australia</p>
       </div>
       <!--contact info end-->
       <!--contact form start-->
@@ -391,4 +417,3 @@ $( ".navbar-toggle" ).click(function() {
 <script type="text/javascript" src="js/jquery.contact.js"></script>
 </body>
 </html>
-

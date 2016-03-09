@@ -736,17 +736,21 @@ header{
 }
 
 .portfolioFilter ul li a:hover{
-	border:solid 1px #15596e;
+	border:solid 1px #fff;
 	color:#15596e;
+	color: #fff;
+
 	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 
-.portfolioFilter ul li a.current{
+.portfolioFilter ul li a{
 	background:#15596e;
 	border:solid 1px #15596e;
 	color:#fff;
+	font-size: 30px;
+	border-radius: 40px;
 }
 
 
@@ -773,6 +777,31 @@ ul.portfolioContainer li img{
 	 width:100%;
 	 height:auto;
 	 display:block;
+}
+.dabox {
+	width:800px;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.dabox .box {
+	width: 100px;height: 100px;
+	border-radius: 50%;
+	float: left;
+	background-color: #ff675f;
+	text-align: center;
+	line-height: 100px;
+	margin: 0px 30px;
+}
+.dabox .box:hover{
+	box-shadow: 0px 0px 30px #fff;
+}
+.dabox .box a{
+	font-size: 18px;
+}
+.dabox .box a:hover{
+	text-decoration: none;
+	color: #000;
 }
 
 span.hoverBox{
@@ -866,6 +895,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
+
+.heading .p:hover{
+	width: 280px;
+	height: 430px;
+}
+
 
 
 .isotope-item {
@@ -975,7 +1010,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .mapArea{
 	background:url(../images/map-bro.png) repeat-x 0 0;
 	padding-top:4px;
-	height:400px;
+	/*height:400px;*/
 	overflow:hidden;
 	width:100%;
 	margin:0;
@@ -1310,6 +1345,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.bntDownload{
 		font-size: 13px;
 		padding: 16px 14px;
+		border-radius: 5px;
 	}
 	
 	.conForm textarea{
