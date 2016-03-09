@@ -1,0 +1,282 @@
+.clearfix:before,.clearfix:after{
+	content:"";display: table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{zoom: 1;clear: both;}
+body{
+	font-family: verdana;
+}
+.header{height: 63px;
+	background-color: #fff;
+	border:1px solid #ddd
+}
+.header-inner{
+	width: 960px;
+	margin: 0 auto;
+}
+.nav li {
+	float: left;
+	list-style:none;
+	border:1px solid #ddd;
+	padding:22px 47px;
+	border-bottom : none;
+	border-top : none;
+}
+.nav li a{
+	text-decoration: none;
+	color: #000;
+	 font-family: verdana;
+	 font-size: 16px;
+	/*background-color: #fff;*/
+}
+.nav li:hover{
+	background-color: #db4c00;	
+}
+.nav li a:hover{
+	color: #fff;
+}
+.search{
+	background-color: #fff;
+}
+.search-inner{
+	width: 960px;
+	margin: 0 auto;
+}
+.logo img.f{
+	margin-top:20px;
+	float: left;
+}
+.lan{
+	width: 226px;
+	height: 34px;
+	border:1px solid #ccc;
+	float: right;
+	margin-top:52px;
+}	
+.logo img.s{
+	padding-right: 7px;
+	padding-top: 7px;
+	float: right
+}
+.home{
+	margin-top: 30px;
+}
+.home-inner{
+	width: 960px;
+	margin: 0 auto;
+}
+.home-inner li {
+	width: 312px;
+	height: 56px;
+	/*background-color:#c22100;*/
+	background-image: url(../images/home_03.gif);
+	line-height: 56px;
+	text-align: center;
+	float: left;
+	margin-right: 8px;
+	border-radius: 5px 5px 0px 0px ;
+}
+
+.home-inner a{
+	text-decoration: none;
+	color: #fff;
+	/*font-size: 16px;*/
+}
+.banner-inner{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.banner{
+	background-image: url(../images/banner_33.gif);
+	color: #fff;
+	overflow: hidden;
+
+}
+.banner-inner h1{
+	padding-top:90px;
+	font-size: 70px
+}
+.banner-inner p{
+	 padding-top: 20px;
+}
+.left{
+	width: 208px;
+	text-align: center;
+	float: left;
+}
+.left a{
+	display: block;
+	text-decoration: none;
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	/*background-color: #ca2900;*/
+	background-image: url(../images/read-ream_07.gif);
+    box-shadow: 0 15px 15px #8e0800;
+	border-radius: 35px;
+	margin: 0 auto;
+	margin-top: 56px
+}
+.left img{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.right{
+	float: right;
+	padding-right:10px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+.main-inner{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.main-left{
+width: 244px;
+float: left
+}
+.main-left ul {
+	padding-top: 20px;
+	padding-bottom: 45px;
+	line-height: 1.8em
+}
+.main-left ul li a{
+	background-image: url(../images/jian_15.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 9px;
+	text-decoration: none;
+	color: #808080 ;
+}
+.main-left h2{
+	padding-top: 25px;
+	font-size: 13px;
+}
+.main-left p{
+	color: #808080 ;
+	padding-top: 20px;
+	font-size: 13px;
+}
+.main-right{
+	width: 620px;
+	float: right;
+	padding-bottom: 48px;
+}
+.top-left{
+	margin-top: 25px;
+}
+.top-left img{
+	float: left;
+}
+.top-right {
+	width: 368px;
+	font-size: 14px;
+float: right
+}
+.top-right p{
+	color: #808080; 
+	padding-top: 19px;
+	padding-bottom: 17px;
+}
+.span{
+	color: #d43400
+}
+.top-bottom{
+	margin-top: 20px;
+	color: #808080; 
+	font-size: 14px;
+	width: 620px;
+}
+.read{
+	width: 104px;
+	height: 26px;
+	background-color: #d43400;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 16px;	
+}
+.read a{
+	color: #fff;
+	text-decoration: none;
+}
+.bottom-left{
+	width: 300px;
+	float: left
+}
+.right-bottom{
+	margin-top: 40px;
+	width: 644px;
+
+}
+.right-bottom h2{
+	font-size: 13px;
+}
+.right-bottom p{
+	font-size: 13px;
+	color: #808080 ;
+}
+.bottom-left h2{
+padding-top: 25px;
+}
+.bottom-left p{
+	font-size: 13px;	
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+.bottom-left a{
+	color: #d43400;
+	text-decoration: none;
+	font-weight: bold;	
+}
+.bottom-right{
+	float: right;
+	padding-left: 20px;
+}
+.last{
+	padding-top: 26px;
+	width: 320px
+}
+.picture{
+	float: left;
+}
+.picture-right{
+	float: left;
+	width: 200px;
+	margin-left: 25px;
+}
+
+.picture-right p{
+	padding-top: 14px;
+}
+.footer{
+	height: 143px;
+	border:1px solid #ddd;
+}
+.footer-inner{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 13px;
+	color: #808080 ;
+}
+.footer-inner h1	{
+padding-top: 30px;
+}
+.footer-inner p{
+	padding-top: 15px;
+}
+.footer-inner a{
+color: #d43400;
+	/*text-decoration: none;*/
+}
+.footer-inner p a{
+
+}
+.web{color: #d43400}
+

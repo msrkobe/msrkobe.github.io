@@ -1,0 +1,29 @@
+
+.next-left h1{
+	padding-bottom: 30px;
+}
+.left-bottom li img{
+	float: left;
+	padding-right: 28px;
+	padding-bottom: 30px;
+}
+.left-bottom{
+	margin-top: 28px;
+}
+.inner-right{width: 300px;}
+.inner-right p{
+	color: #fff;
+	
+	padding-top: 30px;
+}
+.inner-right h1{
+	margin-top: 40px;
+}
+.inner-right li a{
+	background-image: url(../images/sanjiao_10.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.inner-left{
+	padding-bottom: 30px;
+}
