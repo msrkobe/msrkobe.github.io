@@ -1,0 +1,50 @@
+.con{
+	background-image: url(../images/beijing_05.png);
+
+}
+.con h1{
+	width: 33.169%;
+	margin: 0 auto;
+	padding-top: 40px;
+	font-size: 3.5em;
+	color: #E81056;
+	padding-bottom: 40px;
+}
+.liu{
+	padding-left:26.686%;
+	padding-top: 40px;
+	
+}
+.con .liu:last-child input{
+	width: 64.477%;height: 300px;
+	margin-bottom: 150px;
+}
+nav ul li:nth-child(6) a{
+	color: #C9A552;
+}
+.liu p{
+	font-size: 3em;
+	padding-bottom: 5px;
+}
+.liu input{
+	height: 40px;
+	width: 53.6515%;
+	font-size: 2em;
+}
+.liu input:hover{
+	background-color: #ccc;
+}
+/*.send{
+	margin-top: 40px;
+	margin-left: 500px;
+}
+.send a{
+	width: 200px;height: 40px;
+	text-decoration: none;
+	background-color: #E81056;
+	padding: 20px 40px;
+	color: #fff;
+	font-size: 30px;
+
+
+}*/

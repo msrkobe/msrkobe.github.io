@@ -1,0 +1,49 @@
+nav ul li:nth-child(5) a{
+	color: #C9A552;
+}
+section h1{
+	width:40.3432%;
+	margin: 0 auto;
+	padding-top: 40px;
+	font-size: 3.5em;
+	color: #E81056;
+	padding-bottom: 40px;
+}
+.art{
+	/*width: 1200px;*/
+	/*background-color: pink;*/
+	background-image: url(../images/beijing_05.png);
+	
+	overflow: hidden;
+
+}
+article img{
+	padding-left: 7.4128%;
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+article .img-r{
+	float: left;
+	width: 48.1838%;
+
+	padding-bottom: 30px;
+}
+article .img-r h5{
+	padding-top: 8px;
+}
+article .img-r p{
+	font-size: 20px;
+	width: 100%;
+	padding-top: 15px;
+	line-height: 1.4em;
+	padding-bottom: 30px;
+}
+article .img-r a{
+	text-decoration: none;
+	color: orange;
+}
+span{
+	color: #E81056;
+	font-size: 5em;
+}

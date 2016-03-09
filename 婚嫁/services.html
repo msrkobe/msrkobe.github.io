@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>婚嫁</title>
+	<link rel="stylesheet" href="css/public.css">
+	<!-- <link rel="stylesheet" href="css/index.css"> -->
+	<link rel="stylesheet" href="css/ser.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="home">
+
+		<nav class="nav">
+			<div class="logo">Love Story</div>
+			<ul>
+				<li><a href="index.html">Main Page</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="event.html">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+			<div class="box">
+				<ul>
+					<li><input type="button" value="1"></li>
+					<li><input type="button" value="2"></li>
+					<li><input type="button" value="3"></li>
+		
+				</ul>
+			<div class="about">
+			<img src="images/banner2_02.png" alt="">
+			<img src="images/banner_02.png" alt="">
+			<img src="images/banner2_02.png" alt="">
+			<img src="images/banner3_02.png" alt="">
+			
+		</div>
+	</div>
+	<section class="ser">
+		<h1>Services</h1>
+		<div class="art">
+			<img src="images/11.jpg" alt="">
+			<h2>WEDDING MENU</h2>
+			<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,Nulla consectetur maximus sem vel aliquet. Donec blandit condimentum varius</p>
+			<a href="">MORE INFO</a>
+		</div>
+		<div class="art">
+			<img src="images/22.jpg" alt="">
+			<h2>WEDDING MENU</h2>
+			<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,Nulla consectetur maximus sem vel aliquet. Donec blandit condimentum varius</p>
+			<a href="">MORE INFO</a>
+		</div>
+		<div class="art">
+			<img src="images/66.jpg" alt="">
+			<h2>WEDDING MENU</h2>
+			<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,Nulla consectetur maximus sem vel aliquet. Donec blandit condimentum varius</p>
+			<a href="">MORE INFO</a>
+		</div>
+		<div class="art">
+			<img src="images/33.jpg" alt="">
+			<h2>WEDDING MENU</h2>
+			<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,Nulla consectetur maximus sem vel aliquet. Donec blandit condimentum varius</p>
+			<a href="">MORE INFO</a>
+		</div>
+		<div class="art">
+			<img src="images/44.jpg" alt="">
+			<h2>WEDDING MENU</h2>
+			<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,Nulla consectetur maximus sem vel aliquet. Donec blandit condimentum varius</p>
+			<a href="">MORE INFO</a>
+		</div>
+		<div class="art">
+			<img src="images/55.jpg" alt="">
+			<h2>WEDDING MENU</h2>
+			<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,Nulla consectetur maximus sem vel aliquet. Donec blandit condimentum varius</p>
+			<a href="">MORE INFO</a>
+		</div>
+	</section>
+	<section class="list">
+		<h1>Services list</h1>
+		<ul>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i>
+Fusce interdum metus et turpis ornare sed</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Morbi volutpat enim placerat ipsum</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Praesent porttitor congue elit, non tempus</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sed leoraesent</a></li>
+		</ul>
+		<ul>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i>
+Pestibulum molestieenean nonummy</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Hendreritivamus eget nibh vel metus</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Aenean nec eros luctus stibulum ante</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Osollic velitauguet pharetra augue nec</a></li>
+			</ul>
+			<ul>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i>
+Lorem ipsum dolor sit</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Vestibulum ante faucibus orci ltrices</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Dapibus pulvinonec eget tellus non era</a></li>
+			<li><a href=""><i class="fa fa-chevron-circle-right"></i> Tincidunt ac, viverraonec porta diam eu</a></li>
+			</ul>
+
+
+	</section>
+	<div class="return"><a href=""><i class="fa fa-chevron-circle-down"></i></a></div>
+	<footer>
+		<p>WELCOME TO LOVE STORY</p>
+		<h5>
+			<i class="fa fa-flickr"></i>
+			<i class="fa fa-qq"></i>
+			<i class="fa fa-tencent-weibo"></i>
+		</h5>
+		
+	</footer>
+
+	</div>
+		
+
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script><!-- 调用js -->
+	<script>
+
+		$("li").click(function(){//当鼠标单击一个按钮时
+			var ind = $(this).index()+1;//定义li的索引值
+			var marleft = ind*-410;
+			$(".about").animate({"margin-top":marleft},500);//整个图片加起来的盒子自定义左移，时间为0.5s
+		});
+		$("input").click(function(){//当鼠标点击一个按钮时，按钮背景变色，其他背景不变，
+			$(this).css("background-color","#E81056").parent().siblings().find("input").css("background-color","#000");
+		})
+
+		var n=0;
+		var m=setInterval(function(){
+			n=n==4?0:n;
+			var marleft = n*-200;
+			$(".about2").animate({"margin-left":marleft},500);
+			n++;
+		},1000)
+		
+//返回顶部
+	$(function(){ 
+		//当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失 
+			$(function () { 
+				$(window).scroll(function(){ 
+					if ($(window).scrollTop()>700){ 
+						$(".return").fadeIn(500); 
+						}else{ 
+						$(".return").fadeOut(500); 
+						} 
+					}); 
+					//当点击跳转链接后，回到页面顶部位置 
+					$(".return").click(function(){ 
+					$('body,html').animate({scrollTop:0},300); 
+					return false; 
+				}); 
+			}); 
+		}); 
+
+	</script>
+</html>

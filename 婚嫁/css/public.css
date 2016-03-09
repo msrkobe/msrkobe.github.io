@@ -1,0 +1,91 @@
+body{font-size: 10px;}
+.home{
+	background-color:#E81056;
+	width: 100%;
+	height: 117px;
+
+}
+.box{width: 100%;overflow: hidden;height: 410px;}/*给最外边盒子图片宽度，多出部分隐藏*/
+.about{width: 100%;}/*图片外边盒子是所有图片加一块的宽度*/
+.box ul li{float: left;}/*去掉列表符号，左浮动*/
+.box img{width: 100%;height: 410px;}
+.box input{background-color: #000;color:#fff;
+border-radius: 50%}
+.box ul{
+			position: absolute;
+			top: 506px;
+			left:48.9251%;/*660/1349*/
+}
+.nav{
+	margin: 0 auto;
+	line-height: 117px;
+	overflow: hidden;
+	width: 100%;
+}
+nav .logo{
+	width: 34.9451%;
+	/*border: 1px solid yellow;*/
+	float: left;
+	font-size: 4em;
+	padding-left: 3.7064%;
+	color: #fff;
+	font-weight: bold;
+	
+
+}
+nav .logo:hover{
+	transition:color 2s ease;
+	color: #000;
+	font-weight: bold;
+
+}
+nav ul{
+	width: 55.1838%;
+	/*border: 1px solid yellow;*/
+	float: left;
+	/*margin-left: 13.3083%;/*220/1349*/*/
+
+}
+nav ul li{
+	float: left;
+	padding-left: 3.8461%;
+}nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #C9A552;
+}
+
+footer p{
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 38.8406%;
+	margin: 0 auto;
+	font-size:3em;
+
+}
+footer h5{
+	font-size: 2em;
+	width: 38.8406%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.return{
+	display:none;
+	
+	border-radius: 10px;
+	text-align: center;
+	color:#fff; 
+	font-size: 3em;
+	position: absolute;
+	top: 500px;
+	position: fixed;
+	margin-left: 4.4447%;
+}
+.return .fa{
+	color: #000;
+	font-size: 2em;	
+}

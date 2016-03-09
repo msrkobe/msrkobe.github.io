@@ -1,0 +1,19 @@
+nav ul li:nth-child(4) a{
+	color: #C9A552;
+}
+.gal{
+	background-color: pink;
+}
+section img{
+	width: 26.3083%;
+	margin-left: 4.4477%;
+	margin-top: 40px;
+	border-radius: 7px;
+}
+section h1{
+	width:13.3432%;
+	margin: 0 auto;
+	padding-top: 40px;
+	font-size: 3.5em;
+	color: #E81056;
+}

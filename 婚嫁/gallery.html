@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>婚嫁</title>
+	<link rel="stylesheet" href="css/public.css">
+	<!-- <link rel="stylesheet" href="css/index.css"> -->
+	<link rel="stylesheet" href="css/gal.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="home">
+
+		<nav class="nav">
+			<div class="logo">Love Story</div>
+			<ul>
+				<li><a href="index.html">Main Page</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="event.html">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+		<section class="gal">
+		<h1>Gallery</h1>
+			
+			<img src="images/a11.jpg" alt="">
+			<img src="images/a22.jpg" alt="">
+			<img src="images/a44.jpg" alt="">
+			<img src="images/a55.jpg" alt="">
+			<img src="images/a33.jpg" alt="">
+			<img src="images/a66.jpg" alt="">
+			<img src="images/a55.jpg" alt="">
+			<img src="images/a77.jpg" alt="">
+			<img src="images/a44.jpg" alt="">
+			<img src="images/a11.jpg" alt="">
+			<img src="images/a22.jpg" alt="">
+			<img src="images/a33.jpg" alt="">
+		</section>
+		<div class="return"><a href=""><i class="fa fa-chevron-circle-down"></i></a></div>
+	<footer>
+		<p>WELCOME TO LOVE STORY</p>
+		<h5>
+			<i class="fa fa-flickr"></i>
+			<i class="fa fa-qq"></i>
+			<i class="fa fa-tencent-weibo"></i>
+		</h5>
+		
+	</footer>
+
+	</div>
+		
+
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script><!-- 调用js -->
+	<script>
+
+		
+
+//返回顶部
+	$(function(){ 
+		//当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失 
+			$(function () { 
+				$(window).scroll(function(){ 
+					if ($(window).scrollTop()>700){ 
+						$(".return").fadeIn(500); 
+						}else{ 
+						$(".return").fadeOut(500); 
+						} 
+					}); 
+					//当点击跳转链接后，回到页面顶部位置 
+					$(".return").click(function(){ 
+					$('body,html').animate({scrollTop:0},300); 
+					return false; 
+				}); 
+			}); 
+		}); 
+
+	</script>
+</html>
