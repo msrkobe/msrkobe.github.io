@@ -1362,10 +1362,13 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		line-height: 60px;
 
 	}
-	.pi {padding-left: 145px;}
-	.pi img{
-		margin: 20px;
+	.pi{
+		padding-left: 110px;
 	}
+	.pi img{
+		margin-left:140px;
+	}
+	
 	
 	
 	.bannerText {
@@ -1404,11 +1407,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		padding-left: 30px;
 		border: 1px solid red;
 	}*/
-	.pia{
+	/*.pia{
 		margin-left:70px;
-	}
+	}*/
 	.pi{
-		margin-left: -40px;
+		margin-left: -70px;
 	}
 	.pi img{
 		margin-left:0px;
