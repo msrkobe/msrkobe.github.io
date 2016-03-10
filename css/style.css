@@ -790,6 +790,11 @@ ul.portfolioContainer li img{
 	 height:auto;
 	 display:block;
 }
+
+.portfolioFilter:first-child  .pi{
+	margin-left: 20px;
+}
+
 .dabox {
 	width:800px;
 	height: 100px;
@@ -1343,6 +1348,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		line-height: 60px;
 
 	}
+	
 }
 
 
@@ -1360,6 +1366,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		font-size: 1em;
 		line-height: 60px;
 
+	}
+	.pi img{
+		margin: 20px;
 	}
 	
 	
@@ -1393,7 +1402,21 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width: 150px;
 		height: 150px;
 	}
-	.pi{width: 280px;}
+	/*.pi{width: 280px;}*/
+	/*.portfolioFilter .pi :first-child {
+		width: 300px;
+		padding-left: 30px;
+		border: 1px solid red;
+	}*/
+	.pia{
+		margin-left:70px;
+	}
+	.pi{
+		margin-left: 45px;
+	}
+	.pi img{
+		margin-left:-30px;
+	}
 	
 }
 
@@ -1445,13 +1468,13 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		top:0px;
 		
 	}
-	.dabox .box{
-		width: 60px;height: 60px;
-		font-size: 1em;
-		line-height: 60px;
+	
+	.pia{
+		margin: 10px;
+		padding: 0px;
 	}
-	.dabox .box a{
-		font-size: 1em;
+	.pi img{
+		margin-left: 30px;
 	}
 }
 
