@@ -1303,12 +1303,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width: 150px;
 		height: 150px;
 	}
-	.dabox .box{
-		width: 60px;height: 60px;
-		font-size: 1em;
-		line-height: 60px;
-
+	.pi{
+		padding-left: 20px;
 	}
+	
 	
 }
 
@@ -1342,11 +1340,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width: 150px;
 		height: 150px;
 	}
-	.dabox .box{
-		width: 60px;height: 60px;
-		font-size: 1em;
-		line-height: 60px;
-
+	.pi{
+		padding-left: 30px;
 	}
 	
 }
@@ -1367,7 +1362,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		line-height: 60px;
 
 	}
-	.pi {padding-left: 85px;}
+	.pi {padding-left: 145px;}
 	.pi img{
 		margin: 20px;
 	}
@@ -1413,10 +1408,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		margin-left:70px;
 	}
 	.pi{
-		margin-left: 45px;
+		margin-left: -40px;
 	}
 	.pi img{
-		margin-left:60px;
+		margin-left:0px;
 	}
 	
 }
