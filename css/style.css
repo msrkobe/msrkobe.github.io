@@ -103,7 +103,7 @@ h3{
 }
 h4{
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.8em;
+	font-size:19px;
 	line-height:24px;
 	padding-bottom:6px;
 	font-weight:600;
@@ -1116,7 +1116,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	font-size:1.4em;
 }
 .proPic img{
-		width:250px;height:250px;margin-right:50px;border-radius:50%
+		width:250px;
+		height:250px;
+		margin-right:12px;
+		border-radius:50%
 	}
 
 
