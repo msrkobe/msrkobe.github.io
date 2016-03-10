@@ -796,22 +796,21 @@ ul.portfolioContainer li img{
 	margin: 0 auto;
 	margin-bottom: 100px;
 }
-.dabox .box {
+/*.pi{
 	width: 100px;height: 100px;
 	border-radius: 50%;
-	float: left;
 	background-color: #ff675f;
 	text-align: center;
 	line-height: 100px;
 	margin: 0px 30px;
-}
-.dabox .box:hover{
+}*/
+.pia:hover{
 	box-shadow: 0px 0px 30px #fff;
 }
-.dabox .box a{
+.pi .pia{
 	font-size: 18px;
 }
-.dabox .box a:hover{
+.pi .ip:hover{
 	text-decoration: none;
 	color: #000;
 }
@@ -1197,6 +1196,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.education .workYear{
 		padding-top:58px;
 	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
+	}
 }
 
 
@@ -1220,6 +1225,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.proPic{
 		text-align:center;
 	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
+	}
 }
 
 
@@ -1239,6 +1250,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.abc{
 		width:100%;
 	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
+	}
 	
 	.navbar.navbar-inverse.navbar-static-top a {
 		padding-left: 17px;
@@ -1253,6 +1270,15 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 	.conForm input.col-lg-6 {
 		width: 48.5%;
+	}
+	.dabox{
+		width: 800px;margin: 0 auto;
+	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
 	}
 }
 
@@ -1271,6 +1297,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.aboutme img{
 		width: 150px;
 		height: 150px;
+	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
 	}
 	
 }
@@ -1305,6 +1337,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width: 150px;
 		height: 150px;
 	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
+	}
 }
 
 
@@ -1316,6 +1354,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		transform: translate(0px, -70px);
 		-ms-transform: translate(0px, -70px); /* IE 9 */
 		-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
+	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
 	}
 	
 	
@@ -1349,6 +1393,14 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width: 150px;
 		height: 150px;
 	}
+	/*.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+
+	}*/
+	.pi{width: 280px;}
+	
 }
 
 
@@ -1369,6 +1421,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.item p {
 		font-size: 36px;
 	}
+	.pi{
+		width: 300px;margin: 0 auto;
+
+	}
 
 	
 	.aboutme img{
@@ -1386,6 +1442,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		border-radius: 5px;
 	}
 	
+	
 	.conForm textarea{
 		margin-bottom:20px;
 	}
@@ -1399,6 +1456,14 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		left:0px;
 		top:0px;
 		
+	}
+	.dabox .box{
+		width: 60px;height: 60px;
+		font-size: 1em;
+		line-height: 60px;
+	}
+	.dabox .box a{
+		font-size: 1em;
 	}
 }
 
