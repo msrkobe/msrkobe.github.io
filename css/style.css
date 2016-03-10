@@ -92,12 +92,14 @@ h2{
 	margin:0px;
 }
 h3{
+	margin-left:-200px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	line-height:30px;
 	padding-bottom:6px;
 	font-weight:400;
 	margin:0px;
+	/*padding-left: 200px;*/
 }
 h4{
 	font-family: 'Open Sans', sans-serif;
@@ -1173,6 +1175,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width:140px;
 		height:140px;
 		padding-top:50px;
+		margin-bottom: 90px;
 	}
 	
 	.education .workYear{
