@@ -684,6 +684,15 @@ header{
 .education .workDetails .rightArea{
 	border-left-color:#e5e4e4;
 }
+.pi img{
+	width: 230px;
+  	height: 400px;
+  	margin:-20px;
+  	margin-top:20px;
+  	padding-bottom: 30px;
+  	margin-left:70px;
+}
+
 
 
 
