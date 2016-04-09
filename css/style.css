@@ -375,6 +375,7 @@ ul.social-slide li i.mac{
   color: #333333;
   line-height: 1.8em;
   margin-top: 0.5em;
+  margin-bottom: 0.8em;
 }
 .about-grids {
   margin-top: 3em;
@@ -661,6 +662,7 @@ margin:0 1.5em;
 }
 .team-left img{
 width:100%;
+/*height:400px;  */
 }
 /*--flexisel--*/
 #flexiselDemo1 {
