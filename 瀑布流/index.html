@@ -3,8 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
+<link rel="stylesheet" href="css/lanrenzhijia.css" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 <script type="text/javascript">
+
 function getNum(){
 	return Math.floor(Math.random()*11)
 }
@@ -51,6 +53,40 @@ IMG{clear:both; height:auto; width:240px;}
 </style>
 </head>
 <body>
+	<div class="music-player">
+  <div class="info">
+    <div class="left"> <a href="javascript:;" class="icon-shuffle"></a> <a href="javascript:;" class="icon-heart"></a> </div>
+    <div class="center">
+      <div class="jp-playlist">
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="right"> <a href="javascript:;" class="icon-repeat"></a> <a href="javascript:;" class="icon-share"></a> </div>
+    <div class="progress jp-seek-bar"> <span class="jp-play-bar" style="width: 0%"></span> </div>
+  </div>
+  <div class="controls">
+    <div class="current jp-current-time">00:00</div>
+    <div class="play-controls"> 
+    	<a href="javascript:;" class="icon-previous jp-previous" title="previous"></a> 
+        <a href="javascript:;" class="icon-play jp-play" title="play"></a> 
+        <a href="javascript:;" class="icon-pause jp-pause" title="pause"></a> 
+        <a href="javascript:;" class="icon-next jp-next" title="next"></a> 
+     </div>
+    <div class="volume-level jp-volume-bar"> 
+    	<span class="jp-volume-bar-value" style="width: 0%"></span> 
+        	<a href="javascript:;" class="icon-volume-up jp-volume-max" title="max volume"></a> 
+            <a href="javascript:;" class="icon-volume-down jp-mute" title="mute"></a> 
+    </div>
+  </div>
+  <div id="jquery_jplayer" class="jp-jplayer"></div>
+</div>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script src='js/jquery.jplayer.min.js'></script>
+<script src='js/jplayer.playlist.min.js'></script>
+<script src="js/lanrenzhijia.js"></script>
+
 	<div class="pic">
 		<h2 style="width:450px;margin:0 auto;padding-top:30px;">你看这些视频照片，哈哈真的中奖了吧！</h2>
 	<h4 style="width:400px;color:purple;font-size:30px;text-align:center;margin-top:30px;margin-bottom:20px;border-radius:5px;box-shadow:0px 0px 23px 5px purple;padding:20px 30px;border:3px solid yellow">我们爱的科比，没有“退役”</h4>
